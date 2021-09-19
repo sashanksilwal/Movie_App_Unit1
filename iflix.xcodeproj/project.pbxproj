@@ -3,27 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		50463EB826F653AC006F43E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50463EB726F653AC006F43E9 /* AppDelegate.swift */; };
 		50463EBA26F653AC006F43E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50463EB926F653AC006F43E9 /* SceneDelegate.swift */; };
-		50463EBC26F653AC006F43E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50463EBB26F653AC006F43E9 /* ViewController.swift */; };
 		50463EBF26F653AC006F43E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50463EBD26F653AC006F43E9 /* Main.storyboard */; };
 		50463EC126F653AF006F43E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50463EC026F653AF006F43E9 /* Assets.xcassets */; };
 		50463EC426F653AF006F43E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50463EC226F653AF006F43E9 /* LaunchScreen.storyboard */; };
+		50463ECC26F67AA1006F43E9 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50463ECB26F67AA1006F43E9 /* MovieViewController.swift */; };
+		50463ECE26F6A66B006F43E9 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50463ECD26F6A66A006F43E9 /* MovieCell.swift */; };
+		50463ED126F6ADAB006F43E9 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 50463ED026F6ADAB006F43E9 /* AlamofireImage */; };
+		AEC9719A6953C927B3D40650 /* Pods_iflix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9198C1C8F4B07BA55B7E6FE /* Pods_iflix.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50463EB426F653AB006F43E9 /* iflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50463EB726F653AC006F43E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50463EB926F653AC006F43E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		50463EBB26F653AC006F43E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50463EBE26F653AC006F43E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50463EC026F653AF006F43E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50463EC326F653AF006F43E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50463EC526F653AF006F43E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50463ECB26F67AA1006F43E9 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		50463ECD26F6A66A006F43E9 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		D647608F10AB2CE6C8E73811 /* Pods-iflix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iflix.release.xcconfig"; path = "Target Support Files/Pods-iflix/Pods-iflix.release.xcconfig"; sourceTree = "<group>"; };
+		E9198C1C8F4B07BA55B7E6FE /* Pods_iflix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iflix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3736299B3038C39E57CBFB /* Pods-iflix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iflix.debug.xcconfig"; path = "Target Support Files/Pods-iflix/Pods-iflix.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +38,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50463ED126F6ADAB006F43E9 /* AlamofireImage in Frameworks */,
+				AEC9719A6953C927B3D40650 /* Pods_iflix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BB38F364DA8699EBFD5658C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9198C1C8F4B07BA55B7E6FE /* Pods_iflix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		50463EAB26F653AB006F43E9 = {
 			isa = PBXGroup;
 			children = (
 				50463EB626F653AB006F43E9 /* iflix */,
 				50463EB526F653AB006F43E9 /* Products */,
+				6320C3738F1AD777D65A50DD /* Pods */,
+				4BB38F364DA8699EBFD5658C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +77,24 @@
 			children = (
 				50463EB726F653AC006F43E9 /* AppDelegate.swift */,
 				50463EB926F653AC006F43E9 /* SceneDelegate.swift */,
-				50463EBB26F653AC006F43E9 /* ViewController.swift */,
 				50463EBD26F653AC006F43E9 /* Main.storyboard */,
 				50463EC026F653AF006F43E9 /* Assets.xcassets */,
 				50463EC226F653AF006F43E9 /* LaunchScreen.storyboard */,
 				50463EC526F653AF006F43E9 /* Info.plist */,
+				50463ECB26F67AA1006F43E9 /* MovieViewController.swift */,
+				50463ECD26F6A66A006F43E9 /* MovieCell.swift */,
 			);
 			path = iflix;
+			sourceTree = "<group>";
+		};
+		6320C3738F1AD777D65A50DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE3736299B3038C39E57CBFB /* Pods-iflix.debug.xcconfig */,
+				D647608F10AB2CE6C8E73811 /* Pods-iflix.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +104,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50463EC826F653AF006F43E9 /* Build configuration list for PBXNativeTarget "iflix" */;
 			buildPhases = (
+				1912B8041A69D5B863F88A07 /* [CP] Check Pods Manifest.lock */,
 				50463EB026F653AB006F43E9 /* Sources */,
 				50463EB126F653AB006F43E9 /* Frameworks */,
 				50463EB226F653AB006F43E9 /* Resources */,
+				81CFEE1A5F84C29131277773 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = iflix;
+			packageProductDependencies = (
+				50463ED026F6ADAB006F43E9 /* AlamofireImage */,
+			);
 			productName = iflix;
 			productReference = 50463EB426F653AB006F43E9 /* iflix.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +145,9 @@
 				Base,
 			);
 			mainGroup = 50463EAB26F653AB006F43E9;
+			packageReferences = (
+				50463ECF26F6ADAB006F43E9 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 50463EB526F653AB006F43E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,14 +170,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1912B8041A69D5B863F88A07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iflix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81CFEE1A5F84C29131277773 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iflix/Pods-iflix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iflix/Pods-iflix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iflix/Pods-iflix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50463EB026F653AB006F43E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50463EBC26F653AC006F43E9 /* ViewController.swift in Sources */,
 				50463EB826F653AC006F43E9 /* AppDelegate.swift in Sources */,
 				50463EBA26F653AC006F43E9 /* SceneDelegate.swift in Sources */,
+				50463ECE26F6A66B006F43E9 /* MovieCell.swift in Sources */,
+				50463ECC26F67AA1006F43E9 /* MovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +364,7 @@
 		};
 		50463EC926F653AF006F43E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE3736299B3038C39E57CBFB /* Pods-iflix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +383,7 @@
 		};
 		50463ECA26F653AF006F43E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D647608F10AB2CE6C8E73811 /* Pods-iflix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -339,6 +422,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		50463ECF26F6ADAB006F43E9 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		50463ED026F6ADAB006F43E9 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50463ECF26F6ADAB006F43E9 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 50463EAC26F653AB006F43E9 /* Project object */;
 }
