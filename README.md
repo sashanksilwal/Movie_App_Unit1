@@ -21,8 +21,7 @@ iFlix is an app that allows users to browse movies from the [The Movie Database 
 - [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src='https://imgur.com/0ZUKH6K.gif' width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
