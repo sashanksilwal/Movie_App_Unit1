@@ -17,11 +17,11 @@ iFlix is an app that allows users to browse movies from the [The Movie Database 
 - [x] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
-- [x] (2pt) User can view the app on various device sizes and orientations.
+- [ ] (2pt) User can view the app on various device sizes and orientations.
 - [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-<img src='https://i.imgur.com/6G50crR.gif' width=350><br>
+<img src='https://i.imgur.com/GKqHMiy.gif' width=350><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
