@@ -15,6 +15,9 @@
 		50463ECC26F67AA1006F43E9 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50463ECB26F67AA1006F43E9 /* MovieViewController.swift */; };
 		50463ECE26F6A66B006F43E9 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50463ECD26F6A66A006F43E9 /* MovieCell.swift */; };
 		50463ED126F6ADAB006F43E9 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 50463ED026F6ADAB006F43E9 /* AlamofireImage */; };
+		50B8BA2627051ECB0005677E /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8BA2527051ECB0005677E /* MovieDetailsViewController.swift */; };
+		50B8BA2827052BBC0005677E /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8BA2727052BBC0005677E /* MovieGridViewController.swift */; };
+		50B8BA2A270532BD0005677E /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8BA29270532BD0005677E /* MovieGridCell.swift */; };
 		AEC9719A6953C927B3D40650 /* Pods_iflix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9198C1C8F4B07BA55B7E6FE /* Pods_iflix.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +31,9 @@
 		50463EC526F653AF006F43E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50463ECB26F67AA1006F43E9 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		50463ECD26F6A66A006F43E9 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		50B8BA2527051ECB0005677E /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		50B8BA2727052BBC0005677E /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		50B8BA29270532BD0005677E /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		D647608F10AB2CE6C8E73811 /* Pods-iflix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iflix.release.xcconfig"; path = "Target Support Files/Pods-iflix/Pods-iflix.release.xcconfig"; sourceTree = "<group>"; };
 		E9198C1C8F4B07BA55B7E6FE /* Pods_iflix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iflix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3736299B3038C39E57CBFB /* Pods-iflix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iflix.debug.xcconfig"; path = "Target Support Files/Pods-iflix/Pods-iflix.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +89,9 @@
 				50463EC526F653AF006F43E9 /* Info.plist */,
 				50463ECB26F67AA1006F43E9 /* MovieViewController.swift */,
 				50463ECD26F6A66A006F43E9 /* MovieCell.swift */,
+				50B8BA2527051ECB0005677E /* MovieDetailsViewController.swift */,
+				50B8BA2727052BBC0005677E /* MovieGridViewController.swift */,
+				50B8BA29270532BD0005677E /* MovieGridCell.swift */,
 			);
 			path = iflix;
 			sourceTree = "<group>";
@@ -216,10 +225,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B8BA2627051ECB0005677E /* MovieDetailsViewController.swift in Sources */,
 				50463EB826F653AC006F43E9 /* AppDelegate.swift in Sources */,
 				50463EBA26F653AC006F43E9 /* SceneDelegate.swift in Sources */,
 				50463ECE26F6A66B006F43E9 /* MovieCell.swift in Sources */,
 				50463ECC26F67AA1006F43E9 /* MovieViewController.swift in Sources */,
+				50B8BA2827052BBC0005677E /* MovieGridViewController.swift in Sources */,
+				50B8BA2A270532BD0005677E /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

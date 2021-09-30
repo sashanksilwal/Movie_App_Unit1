@@ -30,7 +30,7 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
                     let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
                     self.movies = dataDictionary["results"] as! [[String:Any]]
                 self.tableView.reloadData()
-                    print(dataDictionary)
+//                    print(dataDictionary)
                     // TODO: Get the array of movies
                     // TODO: Store the movies in a property to use elsewhere
                     // TODO: Reload your table view data
@@ -41,15 +41,25 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
 
-    /*
+   
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
+        // Find the selcted movie
+        // Pass the selected movie to the view controller
         // Pass the selected object to the new view controller.
+        
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        let detailsViewController = segue.destination as! MovieDetailsViewController
+        detailsViewController.movie = movie
+        tableView.deselectRow(at: indexPath, animated: true)
     }
-    */
+     
 
 
 func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
